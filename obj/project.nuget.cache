@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nBxLWKhnRm6RXwwRXyyUcP4TBocJVSMCpL71GJkdcrW3EwO2YOTvoA7njHcft5pP623nGfvLyN+6Jifdxs7Wng==",
+  "dgSpecHash": "mydY/mqqnfyJ8optOQU2aS7iSw9XZvRMDLyy8pBETdW8azfsYn/4s8F57siMrAyb7DBBXvZp/De5J0C9yey/JA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Kehinde Tomiwa\\Documents\\dotnet-tutorial\\mvc-rest-api\\commandline-api\\commandline-api.csproj",
+  "projectFilePath": "C:\\Users\\Kehinde Tomiwa\\Documents\\dotnet-tutorial\\mvc-rest-api\\commandline-api\\commandline-api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.3\\microsoft.aspnetcore.cryptography.internal.5.0.3.nupkg.sha512",
     "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.3\\microsoft.aspnetcore.cryptography.keyderivation.5.0.3.nupkg.sha512",
@@ -70,7 +72,7 @@
     "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\system.private.uri\\4.3.2\\system.private.uri.4.3.2.nupkg.sha512",
     "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",

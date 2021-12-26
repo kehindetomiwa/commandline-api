@@ -5,7 +5,7 @@ namespace commandline_api.Data
 {
     public interface ICommanderRepo
     {
-        IEnumerable<Command> GetAppCommander();
+        IEnumerable<Command> GetAllCommander();
         Command GetCommandById(int id);
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Kehinde Tomiwa\\Documents\\dotnet-tutorial\\mvc-rest-api\\commandline-api\\commandline-api.csproj": {}
+    "C:\\Users\\Kehinde Tomiwa\\Documents\\dotnet-tutorial\\mvc-rest-api\\commandline-api\\commandline-api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Kehinde Tomiwa\\Documents\\dotnet-tutorial\\mvc-rest-api\\commandline-api\\commandline-api.csproj": {
+    "C:\\Users\\Kehinde Tomiwa\\Documents\\dotnet-tutorial\\mvc-rest-api\\commandline-api\\commandline-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Kehinde Tomiwa\\Documents\\dotnet-tutorial\\mvc-rest-api\\commandline-api\\commandline-api.csproj",
+        "projectUniqueName": "C:\\Users\\Kehinde Tomiwa\\Documents\\dotnet-tutorial\\mvc-rest-api\\commandline-api\\commandline-api.csproj",
         "projectName": "commandline-api",
-        "projectPath": "c:\\Users\\Kehinde Tomiwa\\Documents\\dotnet-tutorial\\mvc-rest-api\\commandline-api\\commandline-api.csproj",
+        "projectPath": "C:\\Users\\Kehinde Tomiwa\\Documents\\dotnet-tutorial\\mvc-rest-api\\commandline-api\\commandline-api.csproj",
         "packagesPath": "C:\\Users\\Kehinde Tomiwa\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Kehinde Tomiwa\\Documents\\dotnet-tutorial\\mvc-rest-api\\commandline-api\\obj\\",
+        "outputPath": "C:\\Users\\Kehinde Tomiwa\\Documents\\dotnet-tutorial\\mvc-rest-api\\commandline-api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.3, )"
