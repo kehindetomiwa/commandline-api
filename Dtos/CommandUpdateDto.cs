@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace commandline_api.Dtos
 {
-    public class CommandCreateDto
+    public class CommandUpdateDto
     {
         [Required]
         [MaxLength(50)]

@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Serialization;
 
 
 namespace commandline_api
@@ -31,7 +32,9 @@ namespace commandline_api
         
         services.AddDbContext<CommanderContext>(opt => opt.UseSqlServer
            (Configuration.GetConnectionString("CommanderConnection")));
-        services.AddControllers();
+        services.AddControllers().AddNewtonsoftJson(s => {
+            s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+        });
         services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
         //services.AddSwaggerGen(c =>

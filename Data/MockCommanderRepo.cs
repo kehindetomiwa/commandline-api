@@ -11,6 +11,11 @@ namespace commandline_api.Data
             throw new System.NotImplementedException();
         }
 
+        public void DeleteCommand(Command cmd)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public IEnumerable<Command> GetAllCommander()
         {
             var commands = new List<Command>
@@ -29,6 +34,11 @@ namespace commandline_api.Data
         }
 
         public bool SaveChanges()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void UpdateCommand(Command cmd)
         {
             throw new System.NotImplementedException();
         }
