@@ -7,7 +7,9 @@ namespace commandline_api.Profiles
     public class CommandsProfiles : Profile{
         public CommandsProfiles()
         {
+            //Source - Target
             CreateMap<Command, CommandReadDto>();
+            CreateMap<CommandCreateDto, Command>();
             
         }
     }
